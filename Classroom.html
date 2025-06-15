@@ -36,11 +36,34 @@
     <input type="range" min="0" max="100" name="vol"/><br>
     
     <label for="feedback">Please give feedback:</label>
-    <textarea id="feedback" name="feedback"></textarea>
-    <button type="submit"> Submit</button>
-    
-    
+    <textarea id="feedback" name="feedback"></textarea><br>
+    <button type="submit"> Submit</button><hr>
 
-   </form>
+<form action="https://www.google.com/search">
+ <input type="text" name="q" placeholder="search in google">
+ <button>Search</button>
+</form>
+<hr>
+<br>
+<h2>Registration Form</h2>
+    <label for="firstname"></label>
+    <input type="text" placeholder="First Name" id="firstname">
+
+    <label for="lastname"></label>
+    <input type="text" placeholder="Last Name" id="lastname">
+
+    <div>
+        <label for="gender">Please Select your gender </label>
+        <select name ="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </div>
+
+    <label for="terms">Do you agree to all terms of service?</label>
+    <input type="checkbox" name="terms" id="terms" checked/>
+    <label for="terms"> Yes,I agree</label>
+    <br>
+    <button>Register</button>
 </body>
 </html>
